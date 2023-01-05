@@ -12,14 +12,7 @@ app.get("/", (req, res) => {
     )
   );
 });
-app.get("/styles.css", (req, res) => {
-  res.sendFile(
-    path.resolve(
-      __dirname,
-      "./nodeSetupFiles/node-express-course/02-express-tutorial/navbar-app/styles.css"
-    )
-  );
-});
+
 app.get("about", (req, res) => {
   res.send("This is about page");
 });
