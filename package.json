@@ -1,0 +1,15 @@
+{
+  "name": "introtonode",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "12_httpServer.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
