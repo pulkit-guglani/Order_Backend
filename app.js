@@ -1,14 +1,18 @@
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 5001;
-
-app.use(express.static("./public"));
-
-app.get("/", (req, res) => {
-  res.send("Hello home page");
-});
-
-app.get("about", (req, res) => {
+const route = require("./routes/routes");
+const connectDB = require("./db/connectDB");
+var cors = require("cors");
+app.use(cors());
+app.use(express.json());
+try {
+  connectDB();
+} catch (e) {
+  console.log(e.message);
+}
+app.use("/api", route);
+app.get("/about", (req, res) => {
   res.send("This is about page");
 });
 

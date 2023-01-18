@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Cheesecake Factory",
+    "id": 1,
+    "credentials": { "chef": "password", "operator": "pass" },
+    "orders": [
+      {
+        "id": 1,
+        "orderItems": [
+          { "name": "cola", "qty": 2 },
+          { "name": "cheese burger", "qty": 1 }
+        ],
+        "orderStatus": "pending"
+      },
+      {
+        "id": 2,
+        "orderItems": [
+          { "name": "wine", "qty": 2 },
+          { "name": "french fries", "qty": 1 }
+        ],
+        "orderStatus": "pending"
+      }
+    ],
+    "menu": [
+      {
+        "name": "Drinks",
+        "items": [
+          {
+            "name": "cola",
+            "price": 50,
+            "isAvailable": true
+          },
+          {
+            "name": "wine",
+            "price": 200,
+            "isAvailable": true
+          },
+          {
+            "name": "lemonade",
+            "price": 100,
+            "isAvailable": true
+          }
+        ]
+      },
+      {
+        "name": "Snacks",
+        "items": [
+          {
+            "name": "french fries",
+            "price": 50,
+            "isAvailable": true
+          },
+          {
+            "name": "cheese burger",
+            "price": 100,
+            "isAvailable": true
+          },
+          {
+            "name": "extra veggie burger",
+            "price": 200,
+            "isAvailable": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shokolaat",
+    "id": 2,
+    "credentials": { "chef": "password", "operator": "pass" },
+    "orders": [
+      {
+        "id": 1,
+        "orderItems": [
+          { "name": "cola", "qty": 1 },
+          { "name": "cheese burger", "qty": 2 }
+        ],
+        "orderStatus": "pending"
+      },
+      {
+        "id": 2,
+        "orderItems": [
+          { "name": "wine", "qty": 2 },
+          { "name": "french fries", "qty": 1 }
+        ],
+        "orderStatus": "pending"
+      }
+    ],
+    "menu": [
+      {
+        "name": "Drinks",
+        "items": [
+          {
+            "name": "cola",
+            "price": 50,
+            "isAvailable": true
+          },
+          {
+            "name": "wine",
+            "price": 200,
+            "isAvailable": true
+          },
+          {
+            "name": "lemonade",
+            "price": 100,
+            "isAvailable": true
+          }
+        ]
+      },
+      {
+        "name": "Snacks",
+        "items": [
+          {
+            "name": "french fries",
+            "price": 50,
+            "isAvailable": true
+          },
+          {
+            "name": "cheese burger",
+            "price": 100,
+            "isAvailable": true
+          },
+          {
+            "name": "extra veggie burger",
+            "price": 200,
+            "isAvailable": true
+          }
+        ]
+      }
+    ]
+  }
+]
