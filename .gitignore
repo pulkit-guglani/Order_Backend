@@ -1,2 +1,4 @@
 node_modules
 package-lock.json
+randomData.json
+restaurantDB.js
