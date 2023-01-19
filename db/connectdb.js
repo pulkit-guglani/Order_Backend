@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 const uri = process.env.MONGO_URL;
 
-const connectDB = () => {
+const connectDb = () => {
   console.log("URI: " + process.env.MONGO_URL);
   return mongoose.connect(uri, {
     useNewUrlParser: true,
@@ -10,4 +10,4 @@ const connectDB = () => {
   });
 };
 
-module.exports = connectDB;
+module.exports = connectDb;
